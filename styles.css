@@ -23,8 +23,12 @@ h2 {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 220px;
+  margin: auto;
 }
 
 /* Navigation menu styles (optional) */
