@@ -26,7 +26,7 @@ h2 {
 
 figure {
   border: thin #c0c0c0 solid;
-  display: flex;
+  display: flexbox;
   flex-flow: column;
   padding: 5px;
   max-width: 220px;
@@ -85,3 +85,5 @@ For example:
   nav li {
       display: block;
       margin: 10px
+  }
+}
