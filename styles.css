@@ -32,23 +32,15 @@ figure {
   border: thin #c0c0c0 solid;
   display: flexbox;
   flex-flow: column;
-  padding: 5px;
-  max-width: 220px;
+  padding: 10%;
   margin: auto;
+  max-width: 320px;
   align-items: center;
 }
 
 img {
-  display: flexbox;
-  flex-flow: column;
-  padding: 5px;
-  max-width: 220px;
-  margin-left: 15vw;
-  margin-right: 15vw;
-  align-items: center;
-  max-width: 320px;
-  max-height: 240px;
-  
+  max-width: 640;
+  max-height: 320px;
 }
 
 figcaption {
