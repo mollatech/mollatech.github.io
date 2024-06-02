@@ -32,11 +32,11 @@ h2 {
 figure {
   border: thin #c0c0c0 solid;
   display: flexbox;
-  flex-flow: column;
+  position:relative;
   padding: 1%;
   margin: auto;
   max-width: 320px;
-  align-items: center;
+  
 }
 
 img {
