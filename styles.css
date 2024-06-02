@@ -6,9 +6,13 @@ body {
 }
 
 header, nav, main, section, footer {
-  padding: 20px;
   display: flexbox;
-  align-items: center;
+  width: 60vw;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+
+
 }
 
 .header {
@@ -31,11 +35,20 @@ figure {
   padding: 5px;
   max-width: 220px;
   margin: auto;
+  align-items: center;
 }
 
 img {
+  display: flexbox;
+  flex-flow: column;
+  padding: 5px;
   max-width: 220px;
-  max-height: 150px;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  align-items: center;
+  max-width: 320px;
+  max-height: 240px;
+  
 }
 
 figcaption {
