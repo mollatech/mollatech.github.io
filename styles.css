@@ -1,9 +1,10 @@
 /* Basic styles */
 body {
   font-family: sans-serif;
+  width: 90vw;
   margin: 0;
   padding: 0;
-  background: radial-gradient(closest-corner circle at 15% 35%,#d1c292 0% 15%, #8b8b4e 30%, #bbeeff 100%)
+  background: radial-gradient(closest-corner circle at 15% 35%,#77ccff 0% 10%, #cceeff 60%, #bbeeff 100%)
 }
 
 main {
@@ -20,6 +21,9 @@ main {
 
 header {
 display:flex;
+width: 100vw;
+margin-left: auto;
+margin-right: auto;
 position: sticky;
 flex-direction: column;
 top: 0;
@@ -33,6 +37,7 @@ border-bottom: 2px solid #fdb347;
 
 nav{
   display: flexbox;
+  width: 90vw;
   margin-left: auto;
   margin-right: auto;
   text-align: justify;
@@ -58,6 +63,15 @@ h2 {
   padding-left: 5px;
   font-size: 20px;
 }
+
+.portfolio-item {
+  margin: 20px;
+  padding: 20px;
+  display: flexbox;
+  flex-wrap: wrap;
+  
+}
+
 figure {
   border: thin #c0c0c0 solid;
   display: flexbox;
@@ -134,6 +148,7 @@ For example:
   /* Styles for even smaller screens (phones) */
   nav li {
       display: block;
-      margin: 10px
+      margin: 1px
+      width: 100vw;
   }
 }
