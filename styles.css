@@ -6,27 +6,38 @@ body {
   background: radial-gradient(closest-corner circle at 15% 35%,#d1c292 0% 15%, #8b8b4e 30%, #bbeeff 100%)
 }
 
-header, nav, main, section, footer {
+main {
   display: flexbox;
   width: 90vw;
   text-align: justify;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px;
+  padding: 5px;
 
 
 }
 
 
-.header {
+header {
+display:flex;
 position: sticky;
+flex-direction: column;
 top: 0;
 text-align: center;
 text-transform: capitalize;
-padding: 6px;
+padding: 3px;
 background-color: #0a0a23;
 color: #fff;
-border-bottom: 4px solid #fdb347;
+border-bottom: 2px solid #fdb347;
+}
+
+nav{
+  display: flexbox;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  justify-content: space-evenly;
+  
 }
 
 h2 {
