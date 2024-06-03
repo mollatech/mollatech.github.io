@@ -28,7 +28,21 @@ border-bottom: 4px solid #fdb347;
 h2 {
   margin-bottom: 15px;
 }
+h1,
+h2 {
+  font-family: Verdana, Tahoma;
+}
 
+h2 {
+  border-bottom: 4px solid #dfdfe2;
+  margin-top: 0px;
+  padding-top: 60px;
+}
+#services p {
+  margin-top: 20px;
+  padding-left: 5px;
+  font-size: 20px;
+}
 figure {
   border: thin #c0c0c0 solid;
   display: flexbox;
@@ -52,21 +66,38 @@ figcaption {
   text-align: center;
 }
 
-/* Navigation menu styles (optional) */
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+nav {
+  width: 50%;
+  max-width: 600px;
+  height: 50px;
 }
 
-nav li {
-  display: inline-block;
-  margin-right: 20px;
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+  height: 100%;
 }
 
-nav a {
+nav > ul > li {
+  color: #131330;
+  margin: 0 0.2rem;
+  padding: 0.2rem;
+  display: block;
+}
+
+nav > ul > li:hover {
+  background-color: #ddb96b;
+  color: #474770;
+  cursor: pointer;
+}
+
+li > a {
+  color: inherit;
   text-decoration: none;
-  color: black;
 }
 
 /* Responsive styles (add media queries for different screen sizes) */
