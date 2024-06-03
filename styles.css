@@ -3,7 +3,7 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
-  background: radial-gradient(#d1c292 0% 5%, #8b8b4e 21%, #bbeeff 100%)
+  background: radial-gradient(closest-corner circle at 15% 35%,#d1c292 0% 15%, #8b8b4e 30%, #bbeeff 100%)
 }
 
 header, nav, main, section, footer {
