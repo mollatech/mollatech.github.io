@@ -17,10 +17,13 @@ header, nav, main, section, footer {
 
 }
 
+
 .header {
+position: sticky;
+top: 0;
 text-align: center;
 text-transform: capitalize;
-padding: 32px;
+padding: 6px;
 background-color: #0a0a23;
 color: #fff;
 border-bottom: 4px solid #fdb347;
@@ -47,7 +50,7 @@ h2 {
 figure {
   border: thin #c0c0c0 solid;
   display: flexbox;
-  position:relative;
+  
   padding: 1%;
   margin: auto;
   max-width: 320px;
@@ -84,7 +87,7 @@ nav > ul {
 }
 
 nav > ul > li {
-  color: #131330;
+  color: #a4a4bb;
   margin: 0 0.2rem;
   padding: 0.2rem;
   display: block;
