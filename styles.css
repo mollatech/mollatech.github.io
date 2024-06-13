@@ -1,7 +1,7 @@
 /* Basic styles */
 body {
   margin: 0;
-  background: radial-gradient(closest-corner circle at 15% 25%,#1d1f20 0% 10%, #0b3b53 90%, #15313a 100%)
+  background: radial-gradient(closest-corner circle at 15% 25%,#1d1f20 0% 20%, #0b3b53 95%, #15313a 100%)
 }
 
 main{
@@ -13,7 +13,7 @@ main{
 
 }
 
-.about, .services{
+.about, .services, .portfolio{
   padding-top: 100px;
   width: 95vw;
   max-width: 1200px;
@@ -92,7 +92,7 @@ h2 {
 
 .heading2-line {width: 75vw; max-width: 1000px; height: 1px;  background-color: #fff; margin-left: 20px;}
 
-.portfolio {
+.portfolio-grid {
   display: grid;
   grid-template-columns: minmax(2rem, 1fr) minmax(2rem, 1fr);
   gap: 1rem;
@@ -135,6 +135,8 @@ figcaption {
 }
 
 footer {
+  padding-top: 5px;
+  padding-left: 10%;
   text-align: center;
   background-color: #0a0a23;
   color: #fff;
@@ -147,12 +149,12 @@ footer {
 
 @media screen and (max-width: 640px){
 
-  header, section, h2, ul, li, footer, .portfolio, .about, .services {
-    font-size: small;
+  header, section, h2, ul, li, footer, .portfolio, .about, .services, .portfolio-grid {
+    font-size: 0.8rem;
   }
 
   img {
-    max-width: 80px;
+    max-width: 100px;
     
   }
 }
