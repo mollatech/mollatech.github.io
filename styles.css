@@ -14,7 +14,7 @@ main{
 }
 
 .about, .services, .portfolio{
-  padding-top: 100px;
+  padding-top: 120px;
   width: 95vw;
   max-width: 1200px;
   font-family: sans-serif, Tahoma;
@@ -26,13 +26,14 @@ main{
 
 
 
+
 header {
   display:flex;
   flex-direction: column;
   width: 100vw;
-  margin: auto;
   position: fixed;
   top: 0;
+  padding-top: 10px;
   text-align: center;
   text-transform: capitalize;
   background-color: #0a0a23;
@@ -43,7 +44,6 @@ header {
   nav{
     
     width: 90vw;
-    margin: auto;
     text-align: justify;
     justify-content: space-evenly;
   }
@@ -55,7 +55,6 @@ header {
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
-    margin-block: 0;
     height: 50%;
   }
   
@@ -98,39 +97,44 @@ h2 {
   gap: 1rem;
   padding-top: 100px;
   width: 95vw;
-  max-width: 1200px;
   font-family: sans-serif, Tahoma;
-  font-size: large;
   color: #c0c0c0;
   text-align: justify;
-}
+  }
 
 .portfolio-item {
-  grid-row: 2 ;
-  width: 75%;
+  grid-row: 1;
+  width: 50%;
   margin: auto;
   padding: auto;
-  border: 1px solid #ddd;
   text-align: center;
-}
-
-figure {
-  border: thin #c0c0c0 solid;
-  padding: 1%;
-  max-width: 240px;
   
 }
 
+figure {
+  margin: 0;
+  border: thin #c0c0c0 solid;
+  padding: 2%;
+  width: 25vw;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0);
+  transition: transform .2s;
+    
+}
+
 img {
-  max-width: 320px;
-  max-height: 200px;
+  width: 25vw;
+  height: 25vw;
+  object-fit: cover;
+
+  
+
 }
 
 figcaption {
   background-color: #222;
   color: #fff;
   font: italic smaller sans-serif;
-  padding: 3px;
   text-align: center;
 }
 
@@ -153,8 +157,5 @@ footer {
     font-size: 0.8rem;
   }
 
-  img {
-    max-width: 100px;
-    
-  }
+  
 }
