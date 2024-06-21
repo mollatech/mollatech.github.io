@@ -25,9 +25,8 @@ main{
 }
 
 .about figure {
-  margin-left: 25%;
-  margin-right: 25%;
-
+  display: block;
+  margin: 0 auto;  
 }
 
 header {
@@ -158,7 +157,7 @@ footer {
 @media screen and (max-width: 640px){
 
   header, section, h2, ul, li, footer, .portfolio, .about, .services, .portfolio-grid {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 
   
